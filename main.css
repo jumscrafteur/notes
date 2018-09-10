@@ -90,5 +90,5 @@ div.sticky:hover {
 }
 
 #todo1:checked {
-  
+  text-decoration: line-through;
 }
