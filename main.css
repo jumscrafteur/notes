@@ -33,6 +33,27 @@ span.titre {
   margin-bottom: 200px;
 }
 
+span.titre-desktop {
+  background-color: #95a5a6;
+  border-radius: 20px;
+  padding: 0 20px 0 20px;
+  color: white;
+  margin-bottom: 200px;
+}
+
+span.titre-mobi {
+  display: none;
+  background-color: #95a5a6;
+  border-radius: 20px;
+  padding: 0 20px 0 20px;
+  color: white;
+  margin-bottom: 200px;
+}
+
+img.back {
+  display: none;
+}
+
 .Btn {
   background-color: #DD4C4F;
   border-radius: 1000px;
@@ -96,8 +117,6 @@ div.sticky:hover {
   color: white;
 }
 
-input{}
-
 #todo:checked ~ label {
   text-decoration: line-through;
   color: #bdc3c7;
@@ -118,7 +137,6 @@ input[type=checkbox] {
 input[type="checkbox"]:checked {
   background: #ccc;
   }
-}
 
 input{float: left;}
 
@@ -144,5 +162,20 @@ li.todo-list {
   }
   div.sticky {
     display: none;
+  }
+  img.back {
+    display: inline;
+    margin-top: 2px;
+    height: 30px;
+    float: right;
+    padding: 5px;
+    background-color: #DD4C4F;
+    border-radius: 30px;
+  }
+  span.titre-desktop {
+    display: none;
+  }
+  span.titre-mobi {
+    display: inline;
   }
  }
