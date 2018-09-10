@@ -89,6 +89,22 @@ div.sticky:hover {
   color: white;
 }
 
-#todo1:checked {
+#todo:checked ~ label {
   text-decoration: line-through;
+  color: #bdc3c7;
+}
+
+input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  border-radius: 4px;
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+input[type=checkbox] {
+
 }
