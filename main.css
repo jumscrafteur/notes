@@ -104,3 +104,9 @@ input[type=checkbox] {
   background: #fff;
   border: 1px solid #ccc;
 }
+
+
+li {list-style-type: none;}
+li:before {
+	content: ""; /* on affiche une chaîne de caractère */
+}
