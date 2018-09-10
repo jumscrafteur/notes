@@ -17,6 +17,14 @@ a {
   color: #DD4C4F;
 }
 
+h1 {
+  padding-bottom: 15px;
+}
+
+p, li {
+  font-weight: 50;
+}
+
 span.titre {
   background-color: #95a5a6;
   border-radius: 20px;
@@ -35,7 +43,6 @@ span.titre {
 
 hr {
   margin: 50px 200px 50px 200px;
-  ;
 }
 
 .menu_choix {
@@ -89,6 +96,8 @@ div.sticky:hover {
   color: white;
 }
 
+input{}
+
 #todo:checked ~ label {
   text-decoration: line-through;
   color: #bdc3c7;
@@ -103,10 +112,37 @@ input[type=checkbox] {
   width: 15px;
   background: #fff;
   border: 1px solid #ccc;
+  float: left;
 }
 
-
-li {list-style-type: none;}
-li:before {
-	content: ""; /* on affiche une chaîne de caractère */
+input[type="checkbox"]:checked {
+  background: #ccc;
+  }
 }
+
+input{float: left;}
+
+li.todo-list {list-style-type: none;}
+li.todo.list:before {
+	content: "";
+}
+
+li.todo-list {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-device-width:1000px) {
+  .menu_choix {
+    width: 80%;
+    left: 10%;
+  }
+  hr {
+    margin: 20px 0px;
+  }
+  body {
+    margin: 20px 20px 0 20px;
+  }
+  div.sticky {
+    display: none;
+  }
+ }
