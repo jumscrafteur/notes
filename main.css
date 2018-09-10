@@ -149,7 +149,7 @@ li.todo-list {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-device-width:1000px) {
+@media only screen and (max-device-width:700px) {
   .menu_choix {
     width: 80%;
     left: 10%;
@@ -176,6 +176,12 @@ li.todo-list {
     display: none;
   }
   span.titre-mobi {
-    display: inline;
+    display: inline;6
+  }
+ }
+
+ @media only screen and (max-device-width:310px) {
+  img.back {
+    display: none;
   }
  }
